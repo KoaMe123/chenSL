@@ -1,11 +1,28 @@
 # 基础数值计算
-numpy>=1.24.0
+numpy>=1.24.0,<2.0.0
+
 # 数据处理
 pandas>=2.0.0
-# 数据可视化
+
+# 可视化
 matplotlib>=3.7.0
 seaborn>=0.12.0
-# 机器学习
+
+# 机器学习工具
 scikit-learn>=1.2.0
-# 可选：如果需要更灵活的字体配置（非必需）
+
+# 图像处理
+Pillow>=9.4.0
+
+# 进度条
+tqdm>=4.65.0
+
+# 字体工具
 fonttools>=4.38.0
+
+# 三YOLO通用依赖
+opencv-python>=4.8.0
+pyyaml>=5.4.1
+
+#pytorch(gpu版本）请自行执行pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/
+#yolov5还需要pip install ultralytics
