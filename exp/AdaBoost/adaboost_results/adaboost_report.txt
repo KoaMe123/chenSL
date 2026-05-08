@@ -1,0 +1,6 @@
+===== AdaBoost Binary Classification Report =====
+Final Accuracy: 0.9000
+Selected weak classifiers: ['h2(x1<6.5)', 'h1(x1<2.5)', 'h2(x1<6.5)']
+Alphas: [1.0986122886681098, 0.8047189562170504, 0.42364893019360184]
+Predict: [ 1.  1.  1.  1.  1.  1. -1. -1. -1. -1.]
+True: [ 1  1  1  1  1 -1 -1 -1 -1 -1]

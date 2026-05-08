@@ -1,0 +1,8 @@
+MNIST MLP Comparison Experiment Results
+==================================================
+Model Structure                    Final Acc   Best Acc    
+--------------------------------------------------
+Small MLP (128)                    0.9776      0.9776      
+Base MLP (512,256)                 0.9836      0.9842      
+Deep MLP (512,256,128,64)          0.9818      0.9828      
+Base MLP + Dropout 0.4             0.9834      0.9834      
